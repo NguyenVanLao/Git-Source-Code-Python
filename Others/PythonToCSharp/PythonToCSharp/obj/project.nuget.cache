@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "XBy8L6LGt/3YGO7iqhuY/dH7jspOLMqaQnil00YU5KvLiX/7Sqg97tDjZUtv2J89r5ZpMpanYF33YGuSqJhJ9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vanla\\OneDrive - sv.ut.edu.vn\\Desktop\\PythonToCSharp\\PythonToCSharp\\PythonToCSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vanla\\.nuget\\packages\\dynamiclanguageruntime\\1.3.3\\dynamiclanguageruntime.1.3.3.nupkg.sha512",
+    "C:\\Users\\vanla\\.nuget\\packages\\ironpython\\3.4.0\\ironpython.3.4.0.nupkg.sha512",
+    "C:\\Users\\vanla\\.nuget\\packages\\python\\3.11.4\\python.3.11.4.nupkg.sha512",
+    "C:\\Users\\vanla\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\vanla\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\vanla\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\vanla\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
