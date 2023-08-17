@@ -123,6 +123,11 @@ def select_in_range(promt, min, max):
 
 def play_video(playlist):
 	print_videos(playlist.videos)
+	total = len(playlist.videos)
+
+	choice = select_in_range("Select a video to play (1-" + str(total) + "): ", 1,total)
+	print("Open video for you: " + playlist.videos[choice -1].title + " - " + playlist.videos[choice - 1].link) 
+
 def main():
 	# playlist = read_playlist()
 	# write_playlist_txt(playlist)
@@ -136,17 +141,17 @@ def main():
 
 	while True:
 		show_menu()
-		choice_option = select_in_range("Select an option (1-7): ", 1, 7)
-		print(choice_option)
+		choice_option = select_in_range("Select an option (1-7): ", 1, 7 )
+		print(choice_option,end="\n")
 		if choice_option == 1:
 			playlist = read_playlist()
-			input("Press Enter to continue!")
+			input("\nPress Enter to continue!\n")
 		elif choice_option == 2:
 			print_playlist(playlist)
-			input("Press Enter to continue!")
+			input("\nPress Enter to continue!\n")
 		elif choice_option == 3:
 			play_video(playlist)
-			input("Press Enter to continue!")
+			input("\nPress Enter to continue!\n")
 		elif choice_option == 7:
 			write_playlist_txt(playlist)
 			input("Press Enter to continue!")
