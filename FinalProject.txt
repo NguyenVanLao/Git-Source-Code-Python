@@ -1,0 +1,46 @@
+CHỦ ĐỀ BTL: AI LÀ TRIỆU PHÚ?
+*** YÊU CẦU: MÔ PHỎNG LẠI NGƯỜI CHƠI VÀ NGƯỜI HỎI 15 CÂU RANDOM TỪ BỘ CÂU HỎI
+- BẠN CÓ MUỐN CHƠI KHÔNG? NHẤN "YES" ĐỂ BẮT ĐẦU
+- CÂU 1: .............................
+- A. .......................
+- B. .......................
+- C. .......................
+- D. .......................
+- IN RA "CÂU TRẢ LỜI CỦA BẠN LÀ GÌ?"
+- IN RA "CÂU TRẢ LỜI ĐÚNG CỦA CÂU HỎI", CHỈ ĐƯỢC YÊU CẦU NHẬP A, B, C, D, NẾU NGƯỜI CHƠI NHẬP SAI THÌ YÊU CẦU NHẬP LẠI
+- IN RA "CHÚC MỪNG" HOẶC "CHIA BUỒN"
+- IN RA "SỐ ĐIỂM MÀ NGƯỜI CHƠI NHẬN ĐƯỢC" = SỐ CÂU ĐÃ HỎI/15
+- NẾU NGƯỜI CHƠI TRẢ LỜI ĐÚNG CÂU HỎI VỪA RỒI THÌ HỎI TIẾP TỤC CHƠI HAY DỪNG LẠI? NHẤN "YES" ĐỂ TIẾP TỤC, CÒN LẠI LÀ DỪNG
+	+ NẾU TIẾP TỤC THÌ IN RA "CÂU HỎI NHƯ Ở TRÊN"
+	+ NẾU DỪNG LẠI THÌ IN RA "CHÚC MỪNG BẠN ĐÃ ĐẠT TỚI CÂU BAO NHIÊU ĐÓ"
+	+ NẾU CÂU HỎI VỪA RỒI LÀ CÂU HỎI SỐ 15 THÌ IN RA "CHÚC MỪNG BẠN LÀ TRIỆU PHÚ"
+- NẾU NGƯỜI TRẢ LỜI SAI CÂU HỎI VỪA RỒI THÌ IN RA "CHIA BUỒN NGƯỜI CHƠI ĐÃ THUA CUỘC", SAU ĐÓ HỎI BẠN CÓ MUỐN CHƠI LẠI KHÔNG? NHẤN "YES" ĐỂ BẮT ĐẦU LẠI
+
+- DỮ LIỆU ĐẦU VÀO: FILE .CSV
+- MỨC PHÂN LOẠI:
++ MỨC 1: ĐỌC, RANDOM VÀ TRUY VẤN ĐƯỢC FILE .CSV
++ MỨC 2: VIẾT CHƯƠNG TRÌNH CHẠY ĐƯỢC 1 LẦN DUY NHẤT
++ MỨC 3: VIẾT CHƯƠNG TRÌNH CHẠY ĐƯỢC VÔ TẬN
++ MỨC 4 VÀ 5: VIẾT THÊM 2 HỖ TRỢ: 50/50 VÀ SỰ GIÚP ĐỠ TỪ TRƯỜNG QUAY
+	SAU KHI IN RA "CÂU TRẢ LỜI CỦA BẠN LÀ GÌ?", CẦN PHẢI KIỂM TRA XEM LÀ CÒN SỰ HỖ TRỢ NÀO KHÔNG?
+	SAU ĐÓ, IN RA 'NHẬP "1" ĐỂ CHỌN "50/50" VÀ "2" ĐỂ CHỌN "GIÚP ĐỠ TỪ TRƯỜNG QUAY" VÀ "0" NẾU KHÔNG MUỐN SỬ DỤNG HỖ TRỢ'
+	TIẾP THEO, NẾU NGƯỜI DÙNG CHỌN PHƯƠNG ÁN ĐÃ SỬ DỤNG RỒI THÌ THÔNG BÁO "ĐÃ SỬ DỤNG RỒI" VÀ IN LẠI 'NHẬP "1" ĐỂ CHỌN "50/50" VÀ "2" ĐỂ CHỌN "GIÚP ĐỠ TỪ TRƯỜNG QUAY"'
+	NẾU CHỌN "0" THÌ IN RA "CÂU TRẢ LỜI CỦA BẠN LÀ GÌ?"
+
+***50/50
+- CHỌN 2/3 PHƯƠNG ÁN SAI VÀO LOẠI BỎ VÀ IN RA LẠI 4 ĐÁP ÁN VỚI 2 ĐÁP ÁN TRẮNG
+	- A. 
+	- B. 
+	- C. .......................
+	- D. .......................
+
+***GIÚP ĐỠ TỪ TRƯỜNG QUAY
+- IN RA (GIẢ SỬ CÂU A ĐÚNG)
+	- A. 40% ĐÚNG
+	- B. 15% ĐÚNG
+	- C. 15% ĐÚNG
+	- D. 30% ĐÚNG
+- SAU ĐÓ, IN RA "CÂU TRẢ LỜI CỦA BẠN LÀ GÌ?"
+
+	 
+
